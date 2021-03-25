@@ -1,5 +1,4 @@
 # Custom Image VSI
-***
 
 This repo guides you through creating a custom linux image with Virtual Box and upload to IBM Cloud as a custom image.
 
@@ -8,7 +7,7 @@ This repo guides you through creating a custom linux image with Virtual Box and 
 1. Download [Cent OS Image][CENTOS_IMAGE_URL]
 1. Download [IBM Cloud CLI][IBM_CLOUD_CLI_URL]
 1. Download [QEMU CLI][QEMU_CLI_URL]
-***
+
 ## Creating the Disk Image
 
 The example iso we are going to use will be Cent-OS 7.x.
@@ -129,7 +128,6 @@ You have 2 options for this
 Now that we have created the custom image we can select the image during the VSI creation process in the IBM Cloud. You 
 will be able to select the custom image under the _Operating System_ section during the VSI creation process.
 
-***
 [IBM_CLOUD_URL]: https://cloud.ibm.com
 [VirtualBoxURL]: https://www.virtualbox.org/
 [CENTOS_IMAGE_URL]: https://www.centos.org/download/
